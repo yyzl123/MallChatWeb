@@ -35,7 +35,7 @@ jobs:
       # 打包
       - name: 打包
         run: pnpm build
-      # 上传打包文件到远程服务器
+      # 上传打包文件到远程服务器1
       - name: 上传文件到远程服务器
         uses: zhenyuWang/Upload-File-Action@v1.0.1
         with:
